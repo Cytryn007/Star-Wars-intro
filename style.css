@@ -77,7 +77,7 @@ svg {
     position: absolute;
     top: 100%;
     line-height: 1.5;
-    
+    font-family: "Russo One", sans-serif;
     color: rgb(252,223,43);
 }
 .board {
@@ -86,4 +86,11 @@ svg {
     height: 50em;
     position: absolute;
     left: 50%;
+    bottom: 0;
+    margin-left: -9em;
+    font-size: 400%;
+    overflow: hidden;
+    transform: perspective(300px) rotateX(25deg);
+    transform-origin: 50% 100%;
+
 }
